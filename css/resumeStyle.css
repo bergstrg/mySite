@@ -1,0 +1,11 @@
+/*Gabriel Bergstrom*/
+.navbar .navbar-nav{
+    border-radius: 0;
+    margin: 0;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse{
+    text-align: center;
+}

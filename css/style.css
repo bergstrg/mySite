@@ -1,0 +1,164 @@
+/*Gabriel Bergstrom*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Source+Sans+Pro');
+h2,h3,p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.center_format{
+  padding-top: 100px;
+  padding-left: 100px;
+}
+#siteTitle{
+  text-decoration: underline;
+  position: absolute;
+}
+.siteFont{
+  font-size: 20px;
+}
+.siteWelcome{
+  position: relative;
+  right:70px;
+
+}
+.notes{
+  position: relative;
+  left: 150px;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #111;
+}
+#titleImage{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 425px;
+    display: inline;
+}
+#profileImage{
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#aboutBio{
+  position: relative;
+  left: 50px;
+  top: 25px;
+}
+.photoGalleryRow{
+  padding-top: 100px;
+}
+.navbar {
+  border-radius: 0;
+  margin: 0;
+}
+.spacing{
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.about{
+  background-image:url("../img/img063 copy.jpg");
+}
+#contactContainer{
+  padding-top: 400px;
+}
+#aboutSection{
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+.contactSection{
+  position: relative;
+  bottom: 200px;
+}
+.navbar .navbar-nav{
+  border-radius: 0;
+  margin: 0;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+  text-align: center;
+}
+body, html {
+  height: 100%;
+}
+.parallax {
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#parallax1{
+  background-image: url('../img/websiteWelcome.jpg');
+}
+#parallax2{
+  background-image: url("../img/img054 copy.jpg");
+}
+#parallax3{
+  background-image: url("../img/img061 copy.jpg");
+}
+#aboutWelcome{
+  position: relative;
+  bottom: 50px;
+}
+li{
+  display: block
+}
+@media screen and (max-width:992px) {
+  .siteFont{
+    font-size: 18px;
+  }
+
+}
+@media screen and (max-width:768px)  {
+  .siteFont{
+    font-size: 22px;
+  }
+}
+#socialMedia img {
+  padding: 50px 0 50px 0;
+}
+#contact{
+  padding-left: 25px;
+}
+.social_media_icon{
+  width: 102px;
+  height: 202px;
+}
+.social_media_icon1{
+  height: 202px;
+}
+.social_media_icon2{
+  height: 102px;
+}
+#photoBio{
+  padding-top: 25px;
+}
+#photoBio p{
+  font-size: 20px;
+}
+
